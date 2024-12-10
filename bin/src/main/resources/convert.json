@@ -1,0 +1,99 @@
+{
+"admin":[
+ {
+  "username": "pepe",
+  "password": "pepe",
+  "id": 1,
+  "id_empresa": 1,
+  "dni": "24497453S"
+ },
+ {
+  "username": "Santos",
+  "password": "Santos",
+  "id": 2,
+  "id_empresa": 2,
+  "dni": "89745263C"
+ }
+],
+"empresas":[
+ {
+  "nombre": "McDonald´s",
+  "direccion": "Calle Larga, Fernan Nuñez",
+  "id": 1,
+  "horario": "10:00-12:00",
+  "puntuaje": 10
+ },
+ {
+  "nombre": "Burguer King",
+  "direccion": "Avenida Ancha, La Rambla",
+  "id": 2,
+  "horario": "9:00,12:30",
+  "puntuaje": 50
+ }
+],
+"productos":[
+ {
+  "id_empresa": 1,
+  "nombre": "BigMac",
+  "precio": 8,
+  "descripcion": "Hamburguesa doble con salsa bigmac",
+  "id": 1,
+  "img": "vhm",
+  "tipo": "Hamburguesas"
+ },
+ {
+  "id_empresa": 1,
+  "nombre": "Coca Cola",
+  "precio": 2,
+  "descripcion": "Coca Cola Company",
+  "id": 2,
+  "img": "Cola",
+  "tipo": "Bebida"
+ },
+ {
+  "id_empresa": 1,
+  "nombre": "McFlurry",
+  "precio": 4,
+  "descripcion": "Helado de yogurt con surtido de galletas",
+  "id": 3,
+  "img": "test",
+  "tipo": "Helados"
+ },
+ {
+  "id_empresa": 1,
+  "nombre": "Fanta",
+  "precio": 2,
+  "descripcion": "test",
+  "id": 5,
+  "img": "test",
+  "tipo": "Bebida"
+ },
+ {
+  "id_empresa": 2,
+  "nombre": "Cola",
+  "precio": 2,
+  "descripcion": "coca cola",
+  "id": 6,
+  "img": "test",
+  "tipo": "Bebida"
+ },
+ {
+  "id_empresa": 2,
+  "nombre": "Nuggets",
+  "precio": 5,
+  "descripcion": "Bolitas de pollo",
+  "id": 7,
+  "img": "test",
+  "tipo": "Acompañantes"
+ },
+ {
+  "id_empresa": 2,
+  "nombre": "Hamburguesa Angus",
+  "precio": 12,
+  "descripcion": "La nueva Angus Grill Original",
+  "id": 8,
+  "img": "hgdh",
+  "tipo": "Hamburguesas"
+ }
+]
+}

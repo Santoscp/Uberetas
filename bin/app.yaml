@@ -1,0 +1,8 @@
+runtime: nodejs16
+env: standard
+
+env_variables:
+  DB_HOST: "34.175.77.232"
+  DB_USER: "quickbite2024"
+  DB_PASS: "quickbite2024"
+  DB_NAME: "quickbite"
